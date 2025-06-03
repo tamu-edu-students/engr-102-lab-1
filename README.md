@@ -1,13 +1,13 @@
 # ENGR 102 LAB Topic 1
 
 ## Activities
-This is an individual assignment, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance. **Please include the individual header in your ~.py files**. 
+**This is an individual assignment**, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance. **Please include the individual header in your ~.py files**. 
 
-* [Howdy World](#howdy-world---individual)
-* [Print Math](#print-math---individual)
-* [Follow Directions](#follow-directions---individual)
+* [Howdy World](#howdy-world)
+* [Print Math](#print-math)
+* [Follow Directions](#follow-directions)
 
-## Howdy World - individual
+## Howdy World
 Write a program named `howdy_world.py` that outputs:
 1. `Howdy, World!`
 2. One sentence giving some interesting fact about yourself
@@ -18,7 +18,7 @@ Howdy, World!
 I code in python for fun.
 ```
 
-## Print Math - individual
+## Print Math
 The purpose of this activity is to familiarize you with [some basic engineering equations](https://zachry.tamu.edu/zachry-engineering-quad-equations/) and provide practice writing a simple Python program that performs calculations and displays results. For the equations below, write code that will display the numerical result of using the equation with the specified inputs. Remember to include comments in your code to describe what your code is doing.
 
 Example: Let’s say we want to compute the area of a rectangle of length 5 inches and height 3 inches. The line of code below will print the numerical result.
@@ -78,7 +78,7 @@ Change of velocity is 571.1654292155197 m/s
 ```
 
 
-## Follow Directions - individual
+## Follow Directions
 The purpose of this activity is to get you used to Gradescope, and to learn to follow directions. You will encounter limits of functions in calculus and learn to work with them analytically. Writing this program will introduce how limits can be calculated numerically and provide additional practice creating computational Python programs.
 
 Certain functions are difficult to evaluate at particular values, where infinity or division by zero are involved, but can be understood by evaluating them at a number of values that approach zero or infinity. You are to write a program that produces several evaluations for one function. You should perform these evaluations by creating a sequence of print statements that output the desired numbers.
@@ -112,7 +112,7 @@ My guess was a little off
 ## Freqently Asked Questions
 1. **Do I have to use the header in all of my ~.py files?** YES! This is to identify your files if we need to download them.
 
-2. **Where do I submit my files?** Please submit your files to Gradescope. DO NOT submit files to Canvas; no one will see them and therefore will not be graded. If you're having trouble figuring out how to use Gradeswcope, please ask your instructor or a PT during class for help.
+2. **Where do I submit my files?** Please submit your files to Gradescope. DO NOT submit files to Canvas; no one will see them and therefore will not be graded. If you're having trouble figuring out how to use Gradescope, please ask your instructor or a PT during class for help.
 
 3. **Can I submit my labs more than once?** YES! In fact, [I highly encourage you to submit your files many times](https://www.youtube.com/watch?v=GQtcWPjgwGc). Each time you submit, check the test cases to see what you missed, fix your code, and submit again. There is no penalty for multiple submissions. I have had several students in the past submit ~100 times for one assignment!
 
