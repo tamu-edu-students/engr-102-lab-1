@@ -83,7 +83,7 @@ The purpose of this activity is to get you used to Gradescope, and to learn to f
 
 Certain functions are difficult to evaluate at particular values, where infinity or division by zero are involved, but can be understood by evaluating them at a number of values that approach zero or infinity. You are to write a program that produces several evaluations for one function. You should perform these evaluations by creating a sequence of print statements that output the desired numbers.
 
-Write a program named `follow_directions.py` that performs the following tasks for the function $$f(x)=((1-\cos⁡x))⁄x^2$$ evaluated close to $$x=0$$. Use values of $$x$$ ranging from 1.0 to 0.00000001 by moving the digit 1 over by one place from the previous value ($$x=1.0$$, $$x=0.1$$, $$x=0.01$$...).
+Write a program named `follow_directions.py` that performs the following tasks for the function $$f(x)=(1-\cos⁡x)⁄x^2$$ evaluated close to $$x=0$$. Use values of $$x$$ ranging from 1.0 to 0.00000001 by moving the digit 1 over by one place from the previous value ($$x=1.0$$, $$x=0.1$$, $$x=0.01$$...).
 1. First, print a line of text stating the purpose of the program
 2. Next, print a line of text stating your guess for the final calculated value
 	- There are no wrong answers, just make a guess
@@ -91,9 +91,9 @@ Write a program named `follow_directions.py` that performs the following tasks f
 3. Next, print out a sequence of 8 numbers, representing evaluating the function at 8 different values of $$x$$
 4. Finally, print one blank line, followed by a statement of how good your guess is
 
-As an example, for the equation $$f(x)=\tan⁡(x)/x$$ evaluated close to $$x=0$$, your output would look like what’s shown below. **Make sure your code evaluates $$f(x)=((1-\cos⁡x))⁄x^2$$**.
+As an example, for the equation $$f(x)=\tan⁡(x)/x$$ evaluated close to $$x=0$$, your output would look like what’s shown below. **Make sure your code evaluates $$f(x)=(1-\cos⁡x)⁄x^2$$**.
 
-Example output (using $$\tan⁡(x)/x$$):
+Example output (using $$f(x)=\tan⁡(x)/x$$):
 ```
 This shows the evaluation of tan(x)/x evaluated close to x=0
 My guess is 2
