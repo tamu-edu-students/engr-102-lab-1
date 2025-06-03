@@ -1,7 +1,7 @@
 # ENGR 102 LAB Topic 1
 
 ## Activities
-**This is an individual assignment**, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance. **Please include the individual header in your ~.py files**. 
+**This is an individual assignment**, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance, or check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files**. 
 
 * [Howdy World](#howdy-world)
 * [Print Math](#print-math)
@@ -109,7 +109,7 @@ My guess is 2
 My guess was a little off
 ```
 
-## Freqently Asked Questions
+## Frequently Asked Questions
 1. **Do I have to use the header in all of my ~.py files?** YES! This is to identify your files if we need to download them.
 
 2. **Where do I submit my files?** Please submit your files to Gradescope. DO NOT submit files to Canvas; no one will see them and therefore will not be graded. If you're having trouble figuring out how to use Gradescope, please ask your instructor or a PT during class for help.
