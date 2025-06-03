@@ -1,7 +1,7 @@
 # ENGR 102 LAB Topic 1
 
 ## Activities
-This is an individual assignment, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in VS Code first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance.
+This is an individual assignment, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance. **Please include the individual header in your ~.py files**. 
 
 * [Howdy World](#howdy-world---individual)
 * [Print Math](#print-math---individual)
@@ -57,15 +57,15 @@ In the new version of the code, the first comment simply describes what the line
 Notice that these three items are separated by commas in the `print()` statement and that the “strings” consist of text enclosed inside double quotation marks. By default, when print items are separated by a comma, a space is inserted between the items when printed. If someone looks at this code and the output, they should be able to tell what you are doing without having to ask too many questions.
 
 Write a program named `print_math.py` to produce output for the following calculations:
--	The **Reynolds Number (Re)** is an important dimensionless quantity in fluid mechanics that is used to predict flow patterns in different fluid flow situations. It is the ratio of inertial forces to viscous forces given by the equation<br/>
+1.	The **Reynolds Number (Re)** is an important dimensionless quantity in fluid mechanics that is used to predict flow patterns in different fluid flow situations. It is the ratio of inertial forces to viscous forces given by the equation<br/>
 $$\text{Re}=\frac{uL}{ν}$$<br/>
 Calculate the Reynolds number for a fluid with velocity ($$u$$) 9 m/s, kinematic viscosity ($$ν$$) 0.0015 m^2/s, and a characteristic linear dimension ($$L$$) of 0.875 m.
--	Calculate the wavelength of x-rays scattering from a crystal lattice with a distance between crystal layers of 0.028 nm, scattering angle of 35 degrees, and first order diffraction. **Bragg’s Law** describes the scattering of waves from a crystal using the equation<br/>
+2.	Calculate the wavelength of x-rays scattering from a crystal lattice with a distance between crystal layers of 0.028 nm, scattering angle of 35 degrees, and first order diffraction. **Bragg’s Law** describes the scattering of waves from a crystal using the equation<br/>
 $$nλ=2d\sin⁡θ$$<br/>
 The standard unit of wavelength in the SI system is nanometers (nm).
--	The **Arps equation** is a mathematical model to forecast future production rates of oil and gas wells. Use the equation below to calculate the production rate of a well after 10 days, if it had an initial production rate ($$q_i$$) of 100 barrels/day, an initial decline rate ($$D_i$$) of 2/day, and a hyperbolic constant ($$b$$) of 0.8.<br/>
+3.	The **Arps equation** is a mathematical model to forecast future production rates of oil and gas wells. Use the equation below to calculate the production rate of a well after 10 days, if it had an initial production rate ($$q_i$$) of 100 barrels/day, an initial decline rate ($$D_i$$) of 2/day, and a hyperbolic constant ($$b$$) of 0.8.<br/>
 $$q(t)=\frac{q_i}{(1+bD_i t)^{(1⁄b)}}$$
--	The **Tsiolkovsky rocket equation** describes the motion of a device that can apply acceleration to itself by expelling part of its mass with high velocity. The equation relates the change of vehicle velocity to the exhaust velocity ($$v_e$$) and initial ($$m_0$$) and final ($$m_f$$) masses of the vehicle as<br/>
+4.	The **Tsiolkovsky rocket equation** describes the motion of a device that can apply acceleration to itself by expelling part of its mass with high velocity. The equation relates the change of vehicle velocity to the exhaust velocity ($$v_e$$) and initial ($$m_0$$) and final ($$m_f$$) masses of the vehicle as<br/>
 $$Δv=v_e\ln⁡\left( \frac{m_0}{m_f} \right)$$<br/>
 Calculate the change of velocity of a fighter jet for an initial mass of 11000 kg, final mass of 8300 kg, and exhaust velocity of 2028 m/s.
 
@@ -86,9 +86,9 @@ Certain functions are difficult to evaluate at particular values, where infinity
 Write a program named `follow_directions.py` that performs the following tasks for the function $$f(x)=((1-\cos⁡x))⁄x^2$$ evaluated close to $$x=0$$. Use values of $$x$$ ranging from 1.0 to 0.00000001 by moving the digit 1 over by one place from the previous value ($$x=1.0$$, $$x=0.1$$, $$x=0.01$$...).
 1. First, print a line of text stating the purpose of the program
 2. Next, print a line of text stating your guess for the final calculated value
-	There are no wrong answers, just make a guess
-	Think about the answer then see if your guess was close
-3. Next, print out a sequence of 8 numbers, representing evaluating the function at 8 different values of x
+	- There are no wrong answers, just make a guess
+	- Think about the answer then see if your guess was close
+3. Next, print out a sequence of 8 numbers, representing evaluating the function at 8 different values of $$x$$
 4. Finally, print one blank line, followed by a statement of how good your guess is
 
 As an example, for the equation $$f(x)=\tan⁡(x)/x$$ evaluated close to $$x=0$$, your output would look like what’s shown below. **Make sure your code evaluates $$f(x)=((1-\cos⁡x))⁄x^2$$**.
@@ -108,6 +108,26 @@ My guess is 2
 
 My guess was a little off
 ```
+
+## Freqently Asked Questions
+1. **Do I have to use the header in all of my ~.py files?** YES! This is to identify your files if we need to download them.
+
+2. **Where do I submit my files?** Please submit your files to Gradescope. DO NOT submit files to Canvas; no one will see them and therefore will not be graded. If you're having trouble figuring out how to use Gradeswcope, please ask your instructor or a PT during class for help.
+
+3. **Can I submit my labs more than once?** YES! In fact, [I highly encourage you to submit your files many times](https://www.youtube.com/watch?v=GQtcWPjgwGc). Each time you submit, check the test cases to see what you missed, fix your code, and submit again. There is no penalty for multiple submissions. I have had several students in the past submit ~100 times for one assignment!
+
+4. **I tested my code on my computer and it works, but when I submit to Gradescope it's wrong. What gives?** Make sure your output matches EXACTLY with the example output. Not just the numbers, but also the text. Check your spelling, capitalization, punctuation, and spacing.
+
+5. **Print math part 2 I keep getting the wrong answer.** Remember, trig functions use angles in radians, not degrees. 180 degrees is equal to pi radians.
+
+6. **Follow directions does my guess have to be good?** No! As long as you guess something the autograder will accept it. If you're struggling to pass this test, go back and read the instructions again. Make sure to follow every step, especially the last one!
+
+7. **Can I use `import math` instead of `from math import *`?** We're going to talk about different ways to import math functions later in the semester. It's fine to use `import math`, but remember that all of your function calls need to start with `math.<function>`. Example: `math.cos(math.pi)`
+
+8. **I'm stuck!** Don't worry, you're not alone! First, follow the lab instructions. Don't skip a step! This is a good time to review the example problems in the lecture and practice what we talked about. And if you're still stuck, ask a question in class or visit your instructor or the PTs during office hours.
+
+Have a question you don't see here? Email your instructor!
+
 
 Based upon Dr. Keyser’s Original<br/>
 Revised Summer 2025 SNR
