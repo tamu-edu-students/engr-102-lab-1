@@ -60,21 +60,21 @@ Write a program named `print_math.py` to produce output for the following calcul
 1.	The **Reynolds Number (Re)** is an important dimensionless quantity in fluid mechanics that is used to predict flow patterns in different fluid flow situations. It is the ratio of inertial forces to viscous forces given by the equation<br/>
 $$\text{Re}=\frac{uL}{ν}$$<br/>
 Calculate the Reynolds number for a fluid with velocity ($$u$$) 9 m/s, kinematic viscosity ($$ν$$) 0.0015 m^2/s, and a characteristic linear dimension ($$L$$) of 0.875 m.
-2.	Calculate the wavelength of x-rays scattering from a crystal lattice with a distance between crystal layers of 0.028 nm, scattering angle of 35 degrees, and first order diffraction. **Bragg’s Law** describes the scattering of waves from a crystal using the equation<br/>
+2.	Calculate the wavelength of x-rays scattering from a crystal lattice with a distance between crystal layers of 0.029 nm, scattering angle of 35 degrees, and first order diffraction. **Bragg’s Law** describes the scattering of waves from a crystal using the equation<br/>
 $$nλ=2d\sin⁡θ$$<br/>
 The standard unit of wavelength in the SI system is nanometers (nm).
 3.	The **Arps equation** is a mathematical model to forecast future production rates of oil and gas wells. Use the equation below to calculate the production rate of a well after 10 days, if it had an initial production rate ($$q_i$$) of 100 barrels/day, an initial decline rate ($$D_i$$) of 2/day, and a hyperbolic constant ($$b$$) of 0.8.<br/>
 $$q(t)=\frac{q_i}{(1+bD_i t)^{(1⁄b)}}$$
 4.	The **Tsiolkovsky rocket equation** describes the motion of a device that can apply acceleration to itself by expelling part of its mass with high velocity. The equation relates the change of vehicle velocity to the exhaust velocity ($$v_e$$) and initial ($$m_0$$) and final ($$m_f$$) masses of the vehicle as<br/>
 $$Δv=v_e\ln⁡\left( \frac{m_0}{m_f} \right)$$<br/>
-Calculate the change of velocity of a fighter jet for an initial mass of 11000 kg, final mass of 8300 kg, and exhaust velocity of 2028 m/s.
+Calculate the change of velocity of a fighter jet for an initial mass of 11000 kg, final mass of 8300 kg, and exhaust velocity of 2029 m/s.
 
 Example output:
 ```
 Reynolds number is 5250.0
-Wavelength is 0.03212028043565858 nm
+Wavelength is 0.03326743330836067 nm
 Production rate is 2.8969356500320727 barrels/day
-Change of velocity is 571.1654292155197 m/s
+Change of velocity is 571.4470689735155 m/s
 ```
 
 
