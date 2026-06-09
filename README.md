@@ -1,4 +1,4 @@
-# ENGR 102 LAB Topic 1
+# ENGR 102 LAB Topic 1 update
 
 ## Activities
 **This is an individual assignment**, but you may consult your classmates and others as you work. You must submit your own code. Please complete the following activities. It is suggested that you test your code in an IDE on your own computer first to get the hang of things, then submit your working files to Gradescope. If you have trouble completing any of the activities, please ask a member of the Teaching Team for assistance, or check out the [Frequently Asked Questions](#frequently-asked-questions) below. **Please include the individual header in your ~.py files**. 
