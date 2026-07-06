@@ -8,7 +8,7 @@
 3. [Follow Directions](#follow-directions)
 
 ## Howdy World
-Write a program named `howdy_world.py` that outputs:
+Write a program named `howdy_world.py` that outputs 2 lines:
 1. `Howdy, World!`
 2. One sentence giving some interesting fact about yourself
 
