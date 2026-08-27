@@ -83,7 +83,7 @@ The purpose of this activity is to get you used to Gradescope, and to learn to f
 
 Certain functions are difficult to evaluate at particular values, where infinity or division by zero are involved, but can be understood by evaluating them at a number of values that approach zero or infinity. You are to write a program that produces several evaluations for one function. You should perform these evaluations by creating a sequence of print statements that output the desired numbers.
 
-Write a program named `follow_directions.py` that performs the following tasks for the function $$f(x)=(1-\cos⁡x)⁄x^2$$ evaluated close to $$x=0$$. Use values of $$x$$ ranging from 1.0 to 0.00000001 by moving the digit 1 over by one place from the previous value ($$x=1.0$$, $$x=0.1$$, $$x=0.01$$...).
+Write a program named `follow_directions.py` that performs the following tasks for the function $$f(x)=(1-\cos⁡x)⁄x^2$$ evaluated close to $$x=0$$. Use values of $$x$$ ranging from 1.0 to 0.0000001 by moving the digit 1 over by one place from the previous value ($$x=1.0$$, $$x=0.1$$, $$x=0.01$$...).
 1. First, print a line of text stating the purpose of the program
 2. Next, print a line of text stating your guess for the final calculated value
 	- There are no wrong answers, just make a guess
